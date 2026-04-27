@@ -7,7 +7,7 @@ workflows:
         vars:
           XCODE_WORKSPACE: "147VexmorpanfexPrelstrel.xcworkspace"
           XCODE_SCHEME: "147VexmorpanfexPrelstrel"
-          BUNDLE_ID: "com.bor.v8xm4rp9nf3xpr8ls"
+          BUNDLE_ID: "com.bay.m0cr3xgr3sl0l"
          
           APP_STORE_APP_ID: 6762079699
         xcode: latest
