@@ -101,6 +101,7 @@
 		306967322FAC661D00EF45FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		306967332FAC661D00EF45FD /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		306967372FAC67CE00EF45FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3069676D2FAC731600EF45FD /* 147VexmorpanfexPrelstrel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 147VexmorpanfexPrelstrel.entitlements; sourceTree = "<group>"; };
 		30B0267D2F9DF35200DE834E /* 147VexmorpanfexPrelstrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 147VexmorpanfexPrelstrel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B028A02F9E124E00DE834E /* AppExternalURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalURL.swift; sourceTree = "<group>"; };
 		30B028A22F9E124E00DE834E /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
@@ -402,6 +403,7 @@
 		30B028D72F9E124E00DE834E /* 147VexmorpanfexPrelstrel */ = {
 			isa = PBXGroup;
 			children = (
+				3069676D2FAC731600EF45FD /* 147VexmorpanfexPrelstrel.entitlements */,
 				30B028AD2F9E124E00DE834E /* Core */,
 				30B028CC2F9E124E00DE834E /* Features */,
 				30B028CD2F9E124E00DE834E /* AppDelegate.swift */,
@@ -722,8 +724,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 147VexmorpanfexPrelstrel/147VexmorpanfexPrelstrel.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 147VexmorpanfexPrelstrel/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Mocrexgreslo Luni";
@@ -762,8 +765,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 147VexmorpanfexPrelstrel/147VexmorpanfexPrelstrel.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 147VexmorpanfexPrelstrel/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Mocrexgreslo Luni";
